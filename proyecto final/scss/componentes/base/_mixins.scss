@@ -1,0 +1,14 @@
+
+
+@mixin logo ($border, $ancho, $alto){
+    border-radius: $border 100%;
+    width: $ancho 120px;
+    height: $alto 120px;
+}
+ 
+.logo img{
+    @include logo (100%, 120px, 120px
+    )
+}
+
+
